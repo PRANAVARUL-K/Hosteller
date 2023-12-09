@@ -86,8 +86,11 @@ Follow the steps below to get started:
 
 ## Images
 ![Home](Home.png)
+![Menu](Menu.png)
+![Extras](Extras.png)
+![Constacts](Contact.png)
+![Login](Login.png)
+![Signup](Signup.png)
 
 
 Now you can explore, contribute, and enhance the Hosteller project to suit the specific needs of your institution. Happy coding!
-
-Feel free to explore, contribute, and enhance the Hosteller project to suit the specific needs of your institution. Happy coding!
