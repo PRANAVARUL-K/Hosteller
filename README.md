@@ -44,7 +44,7 @@ Follow the steps below to get started:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/hosteller.git
+   git clone https://github.com/PRANAVARUL-K/Hosteller.git
    ```
 
 2. **Start Apache Server on XAMPP:**
