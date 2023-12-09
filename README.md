@@ -87,7 +87,7 @@ Follow the steps below to get started:
 ## Images
 ![Home](Home.png)
 ![Menu](Menu.png)
-![Extras](Extras.png)
+![Extras](Extra.png)
 ![Constacts](Contact.png)
 ![Login](Login.png)
 ![Signup](Signup.png)
