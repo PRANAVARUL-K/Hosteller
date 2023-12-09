@@ -85,6 +85,7 @@ Follow the steps below to get started:
    - Open your web browser and visit [http://localhost/hosteller](http://localhost/hosteller).
 
 ## Images
+**Wait For The Images To Load**
 ![Home](Home.png)
 ![Menu](Menu.png)
 ![Extras](Extra.png)
