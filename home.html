@@ -1,0 +1,146 @@
+<html>
+    <style>
+        p{text-align:center;
+            color:#AC3B61;
+        font-size:23;
+        font-family: 'century Gothic Medium', 'Arial Narrow', Arial, sans-serif ;}
+    </style>
+    <body bgcolor="#EEE2DC">
+        <p>When it comes to student accommodation, as it helds a unique “all in one campus” CIT is unique. Located within walking distance of the main teaching sites, resident halls are so conveniently close that you really can get out of bed at five to nine, and still get to your nine o’clock class on time! If you are a new first time student, you are guaranteed accommodation, provided your application is accepted. Choosing to live in accommodation with other students will give you a great start at College. You will make new friends during your first few weeks and these friends will stay with you throughout your College years and beyond.
+            </p>
+            <!DOCTYPE html>
+            <html>
+            <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+            * {box-sizing: border-box;}
+            body {font-family: Verdana, sans-serif;}
+            .mySlides {display: none;}
+            img {vertical-align: middle;}
+            
+            /* Slideshow container */
+            .slideshow-container {
+              position: relative;
+              margin: auto;
+              height: 400;
+              width: 500;
+            }
+            
+            /* Caption text */
+            .text {
+              color: #f2f2f2;
+              font-size: 15px;
+              padding: 8px 12px;
+              position: absolute;
+              bottom: 8px;
+              width: 100%;
+              text-align: center;
+            }
+            
+            /* Number text (1/3 etc) */
+            .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
+            
+            /* The dots/bullets/indicators */
+            .dot {
+              height: 15px;
+              width: 15px;
+              margin: 0 2px;
+              background-color: #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              transition: background-color 0.6s ease;
+            }
+            
+            .active {
+              background-color: #717171;
+            }
+            
+            /* Fading animation */
+            .fade {
+              animation-name: fade;
+              animation-duration: 2s;
+            }
+            
+            @keyframes fade {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+              .text {font-size: 11px}
+            }
+            </style>
+            </head>
+            <body>
+            <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="maru.jpg" style="width:100%">
+              <div class="text">MARUTHAMALAI HOSTEL(boys)</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img src="kailash.jpg" style="width:100%">
+              <div class="text">KAILASH HOSTEL(boys)</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="palani.jpg" style="width:100%">
+              <div class="text">PALANI HOSTEL(boys)</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="thirumalai.jpg" style="width:100%">
+                <div class="text">THIRUMALAI HOSTEL(boys)</div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="chinnamal.jpeg" style="width:100%">
+                <div class="text">CHINNAMAL HOSTEL(girls)</div>
+              </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+            
+            </body>
+            </html> 
+            
