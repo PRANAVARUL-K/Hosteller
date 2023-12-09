@@ -84,6 +84,10 @@ Follow the steps below to get started:
    - Place the cloned repository in the `htdocs` directory of your XAMPP installation.
    - Open your web browser and visit [http://localhost/hosteller](http://localhost/hosteller).
 
+## Images
+![Home](Home.png)
+
+
 Now you can explore, contribute, and enhance the Hosteller project to suit the specific needs of your institution. Happy coding!
 
 Feel free to explore, contribute, and enhance the Hosteller project to suit the specific needs of your institution. Happy coding!
