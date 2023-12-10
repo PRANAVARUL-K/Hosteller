@@ -58,26 +58,21 @@ Follow the steps below to get started:
 
   ```sql
   -- Create a database
-  CREATE DATABASE IF NOT EXISTS hostel_db;
+  CREATE DATABASE IF NOT EXISTS signup;
 
   -- Use the created database
-  USE hostel_db;
+  USE signup;
 
-  -- Create students table
-  CREATE TABLE IF NOT EXISTS students (
-      id INT AUTO_INCREMENT PRIMARY KEY,
-      username VARCHAR(50) NOT NULL,
-      password VARCHAR(255) NOT NULL,
-      hostel VARCHAR(50) NOT NULL
-  );
-
-  -- Create tokens table
-  CREATE TABLE IF NOT EXISTS tokens (
-      id INT AUTO_INCREMENT PRIMARY KEY,
-      student_id INT,
-      token_number INT,
-      FOREIGN KEY (student_id) REFERENCES students(id)
-  );
+  -- Create sign table
+  CREATE TABLE IF NOT EXISTS sign (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    u_name VARCHAR(255) NOT NULL,
+    pass VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    stat CHAR(1) DEFAULT 'n',
+    token CHAR(3) DEFAULT 'no'
+);
+--
   ```
 
 4. **Open the Web Application:**
